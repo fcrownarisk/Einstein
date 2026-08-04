@@ -74,3 +74,5 @@ Finally, we compute:
 G_{\mu\nu} = R_{\mu\nu} - \frac{1}{2}g_{\mu\nu}R
 \]
 All components vanish identically:
+
+
