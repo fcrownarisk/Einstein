@@ -1,3 +1,5 @@
+# Simulation of Einstein's Curvature Calculation for Schwarzschild Metric
+
 I'll simulate the execution of your code, showing the key mathematical results Einstein (or Schwarzschild) would have calculated to verify that the Schwarzschild metric describes a curved spacetime consistent with the vacuum field equations. The "lightspeed" aspect refers to using natural units (\(c=1\)), which makes the metric's structure depend only on mass \(M\). This simulation reveals that while the spacetime is curved (non-zero Riemann tensor), the Einstein tensor vanishes, confirming the solution.
 
 ---
@@ -72,24 +74,3 @@ Finally, we compute:
 G_{\mu\nu} = R_{\mu\nu} - \frac{1}{2}g_{\mu\nu}R
 \]
 All components vanish identically:
-
-```
-Einstein tensor G_00 = 0
-```
-
-(and all other \(G_{\mu\nu} = 0\))
-
-This confirms that the Schwarzschild metric satisfies Einstein’s vacuum field equations:
-\[
-G_{\mu\nu} = 0 \quad \Leftrightarrow \quad R_{\mu\nu} = 0
-\]
-
----
-
-## Physical Interpretation for Light
-
-- In general relativity, massless particles (light) travel along **null geodesics** where \(ds^2 = 0\). The metric’s curvature (Riemann tensor) bends these paths, causing **gravitational lensing** and the **Shapiro time delay**.
-- The speed of light \(c\) is set to 1, so the metric directly encodes how spacetime intervals deform. The Schwarzschild radius \(r_s = 2M\) marks the event horizon where the time dilation factor \(g_{00} = 0\).
-- Einstein’s field equations predicted this curvature, and the code mathematically verifies the solution. Schwarzschild found this exact solution in 1916, just months after Einstein published general relativity.
-
-This simulation replicates the symbolic calculation that would have been done (by hand, with great labour) to demonstrate that the proposed metric indeed represents a physically valid, curved vacuum spacetime — the foundation for predicting black holes and light deflection.
