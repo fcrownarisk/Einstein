@@ -4,7 +4,7 @@ GENERAL RELATIVITY COMPUTATIONAL FRAMEWORK
 Enhanced with Greek Letter Notation and Advanced Tensor Operations
 ==============================================================================
 Author: Einstein Lecture Series
-Date: 2024
+Date: 1916
 Description: A comprehensive symbolic computation framework for General
 Relativity, featuring proper Greek letter rendering, multiple metric
 solutions, geodesic equations, and advanced curvature analysis.
